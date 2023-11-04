@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  background: linear-gradient(to right, #00ff80, #f700ff);
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.clock {
+  font-size: 4rem;
+  text-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 0, 0, 0.336);
+  display: flex;
+  gap: 0.25rem;
+  text-align: center;
+}
+
+#seconds {
+  min-width: 5.5rem;
+}
